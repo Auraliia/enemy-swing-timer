@@ -1,0 +1,29 @@
+## Interface: 20505
+## Version: @project-version@
+## Title: EnemySwingTimer |cff1784d1TBC|r
+## Notes: Next-swing & cast timer for healers — predicts enemy melee swings and shows enemy casts
+## Author: Auraliia
+## DefaultState: enabled
+## SavedVariables: EST_DB, EST_LOG_LEVEL, EST_DEBUG_MODE, EST_DEBUG_ENABLED_CATEGORIES
+## SavedVariablesPerCharacter: EST_CHARACTER_DB
+## LoadManagers: AddonLoader
+
+## X-LoadOn-Always: delayed
+## X-Credits: Auraliia
+## X-Category: Combat
+## X-License: All Rights Reserved: You are free to fork and modify on GitHub, please ask us about anything else.
+
+## X-Github-Repo: https://github.com/Auraliia/enemy-swing-timer
+## X-Github-Issues: https://github.com/Auraliia/enemy-swing-timer/issues
+## X-CurseForge: https://www.curseforge.com/wow/addons/TODO_CURSE_SLUG
+## X-Curse-Project-ID: TODO_CURSE_ID
+## X-Github-Project-Author: @project-author@
+## X-Github-Project-Hash: @project-hash@
+## X-Github-Project-Last-Changed-Date: @project-date-iso@
+## X-Github-Project-Version: @project-version@
+
+# To get the Interface/Build Info
+# /dump select(4, GetBuildInfo())
+
+Core\TBC.lua
+Core\_Core.xml

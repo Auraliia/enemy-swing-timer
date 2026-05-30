@@ -1,0 +1,10 @@
+<Bindings>
+    <Binding name="EST_OPTIONS_DLG" category="EST_CATEGORY" header="EST_OPTIONS">
+        EST:OpenConfig()
+    </Binding>
+    <!--@do-not-package@-->
+    <Binding name="EST_OPTIONS_DEBUG_DLG" category="EST_CATEGORY">
+        EST:OpenConfigDebug()
+    </Binding>
+    <!--@end-do-not-package@-->
+</Bindings>
